@@ -1,31 +1,30 @@
 {
   "name": "u05-todolist",
   "version": "1.0.0",
-  "description": "A simple todo list project",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "uuid": "^13.0.0"
+    "esbuild": "^0.27.2",
+    "fdir": "^6.5.0",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.3",
+    "postcss": "^8.5.6",
+    "rollup": "^4.54.0",
+    "source-map-js": "^1.2.1",
+    "tinyglobby": "^0.2.15"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
-    "vite": "^7.3.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/garenmarkarian05gmailcom/u05-todoList.git"
+    "vite": "^7.3.0",
+    "nanoid": "^5.1.6"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/garenmarkarian05gmailcom/u05-todoList/issues"
-  },
-  "homepage": "https://github.com/garenmarkarian05gmailcom/u05-todoList#readme"
+  "license": "ISC"
 }
